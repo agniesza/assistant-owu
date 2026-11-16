@@ -1,0 +1,27 @@
+# Sekrety – NIGDY nie commitować
+.env
+.env.*
+!.env.example
+
+# Java / Maven / Gradle
+target/
+build/
+out/
+.gradle/
+*.class
+*.log
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# macOS
+.DS_Store
+
+# Dane lokalne (np. baza wektorowa, cache)
+data/local/

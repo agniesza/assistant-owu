@@ -25,3 +25,4 @@ out/
 
 # Dane lokalne (np. baza wektorowa, cache)
 data/local/
+docs/owu/
